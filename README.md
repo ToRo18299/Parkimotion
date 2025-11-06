@@ -17,8 +17,6 @@ ParkiMotion consists of two main components:
 - **ESP32 Firmware**: Implements closed-loop vibration control using FreeRTOS, a PID controller, and an MPU6050 IMU. The firmware reads IMU data at 100 Hz, applies digital filtering, and communicates with the host via UART.
 - **Python Dash Interface**: Provides real-time monitoring, FFT analysis, filtering, and statistical tools (including t-Student tests) for protocol evaluation and patient results.
 
-![System Architecture](/assets/architecture.png)
-
 ---
 
 ## Module Overview
@@ -109,12 +107,6 @@ Parkimotion/
 
 ---
 
-## Images
-
-- System Overview: ![System Overview](/assets/overview.png)
-- Dash Interface: ![Dash Interface](/assets/dash_interface.png)
-- FFT Example: ![FFT Example](/assets/fft_example.png)
-
 ---
 
 ## Results & Validation
@@ -137,5 +129,8 @@ ParkiMotion has been validated with patient protocols, demonstrating accurate tr
 
 If you find this project useful, please ⭐ star the repository!  
 For questions or collaboration, open an issue or contact the author.
+
+---
+
 
 ---
