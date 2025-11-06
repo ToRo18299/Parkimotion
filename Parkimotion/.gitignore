@@ -1,0 +1,33 @@
+# ESP-IDF build
+build/
+bootloader/
+partition_table/
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+flash_project_args
+
+# ESP-IDF config
+sdkconfig
+sdkconfig.old
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.env/
+
+# Dash outputs
+*.csv
+
+# VSCode & Devcontainer
+.vscode/
+.devcontainer/
+
+# OS junk
+.DS_Store
+Thumbs.db
